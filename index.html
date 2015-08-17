@@ -25,37 +25,37 @@
                         <form id="validate" name="validate">
                             <div class="form-group">
                                 <label>User Name</label>
-                                <input type="text" id="userName" class="form-control" placeholder="User Name">
-                                <span id="erruser" class="error">User Name is required.</span>
+                                <input type="text" id="userName" class="form-control" placeholder="User Name" data-val="User Name">
+
                             </div>
                             <div class="form-group">
                                 <label>Password</label>
-                                <input type="password" id="passWord" class="form-control" placeholder="Password">
-                                <span id="errpass" class="error">Password is required.</span>
+                                <input type="password" id="passWord" class="form-control" placeholder="Password" data-val="Password">
+
                             </div>
                             <div class="form-group">
                                 <label>Confirm Password</label>
-                                <input type="password" id="passConf" class="form-control" placeholder="Confirm Password">
-                                <span id="errpassconf" class="error">Confirm password is required.</span>
+                                <input type="password" id="passConf" class="form-control" placeholder="Confirm Password" data-val="Confirm Password">
+
                             </div>
                             <div class="form-group">
                                 <label>First Name</label>
-                                <input type="text" id="fname" class="form-control" placeholder="First Name">
-                                <span id="errfirst" class="error">First Name is required.</span>
+                                <input type="text" id="fname" class="form-control" placeholder="First Name" data-val="First Name">
+
                             </div>
                             <div class="form-group">
                                 <label>Last Name</label>
-                                <input type="text" id="lname" class="form-control" placeholder="Last Name">
-                                <span id="errlast" class="error">Last Name is required.</span>
+                                <input type="text" id="lname" class="form-control" placeholder="Last Name" data-val="Last Name">
+
                             </div>
                             <div class="form-group">
                                 <label>Email address</label>
-                                <input type="email" id="emailCheck" class="form-control" placeholder="Email Address">
-                                <span id="errmail" class="error">Email Address is required.</span>
+                                <input type="email" id="emailCheck" class="form-control" placeholder="Email Address" data-val="Email Address">
+
                             </div>
                             <div class="text-center">
-                               <!-- //<button type="submit" class="btn btn-primary" onclick="validates();">Submit</button>-->
-                                <input type="button" class="btn btn-primary" value="Submit"  onclick="return validateForm();">
+                                <!-- //<button type="submit" class="btn btn-primary" onclick="validates();">Submit</button>-->
+                                <input type="button" class="btn btn-primary" value="Submit" onclick="return validateForm();">
                             </div>
 
                         </form>
