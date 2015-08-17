@@ -1,2 +1,2 @@
-JavaScript Form Validaton
+JavaScript Form Validation
 CT Project
