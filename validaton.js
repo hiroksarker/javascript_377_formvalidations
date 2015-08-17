@@ -8,12 +8,11 @@ function validateForm() {
 		var errmessage=document.getElementById(inputs[i].id+'errmsg');
 		if (inputs[i].value==="")
 		{
-			var parent=inputs[i].parentElement;
 			var newNode = document.createElement('span');  
 			newNode.id=inputs[i].id+'errmsg';			
 			newNode.innerHTML = inputs[i].getAttribute("data-val")+" is required.";
 			newNode.style.color = 'red';
-			if(errmessage!=null)
+			if(errmessage!==null)
 			{
 		      parent.removeChild(errmessage);
 			}
@@ -23,7 +22,7 @@ function validateForm() {
 		else
 		{
 		    
-			if(errmessage!=null)
+			if(errmessage!==null)
 			{
 			  parent.removeChild(errmessage);
 			}
